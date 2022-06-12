@@ -4,9 +4,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='alphascope',
-    version='0.0.1',
-    description='gen purpose quant fin library',
+    name="alphascope",
+    version="0.0.2",
+    description="gen purpose quant fin library",
     license="MIT",
     url="https://github.com/atkrishnan/alphascope",
     author="Atheesh Krishnan",
