@@ -25,7 +25,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3 :: Only",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent"
+        "Operating System :: OS Independent",
         "Topic :: Office/Business :: Financial",
         "Topic :: Office/Business :: Financial :: Investment",
         "Natural Language :: English",
@@ -34,7 +34,8 @@ setup(
     install_requires=["numpy", "pandas", "scipy", "cvxpy", "statsmodels"],
     extras_requires={
         "dev": [
-            "pytest>=3.7"
+            "pytest>=3.7",
+            "twine>=4.0.0"
         ]
     },
     python_requires=">=3.5",
