@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='initial',
+    name='alphascope',
     version='0.0.1',
     description='treading water',
-    py_modules=["init"],
+    py_modules=["helloworld"],
     package_dir={'': 'src'}
 )

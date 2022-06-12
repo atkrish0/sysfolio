@@ -1,7 +1,8 @@
-import numpy as np
-import initial as op
+import helloworld as hw
 
 
+def init_test():
+    return hw.say_hello("ak")
 
 
-
+print(init_test())
