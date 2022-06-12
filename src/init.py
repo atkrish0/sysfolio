@@ -1,1 +1,2 @@
 # sample
+print("initial message")
