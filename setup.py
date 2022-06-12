@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='alphascope',
     version='0.0.1',
@@ -27,6 +30,8 @@ setup(
         "Natural Language :: English",
     ],
     keywords="computational finance optimization quant trading investing portfolio arbitrage",
-    install_requires=["numpy", "pandas", "scipy", "cvxpy"],
+    install_requires=["numpy", "pandas", "scipy", "cvxpy", "statsmodels"],
     python_requires=">=3.5",
+    long_description=long_description,
+    long_description_content_type="text/markdown"
 )
