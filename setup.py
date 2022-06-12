@@ -3,7 +3,30 @@ from setuptools import setup
 setup(
     name='alphascope',
     version='0.0.1',
-    description='treading water',
+    description='gen purpose quant fin library',
+    license="MIT",
+    url="https://github.com/atkrishnan/alphascope",
+    author="Atheesh Krishnan",
+    author_email="atheesh.krishnan@outlook.com",
     py_modules=["helloworld"],
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Environment :: Console",
+        "Intended Audience :: Financial and Insurance Industry",
+        "Intended Audience :: Science/Research",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3 :: Only",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+        "Topic :: Office/Business :: Financial",
+        "Topic :: Office/Business :: Financial :: Investment",
+        "Natural Language :: English",
+    ],
+    keywords="computational finance optimization quant trading investing portfolio arbitrage",
+    install_requires=["numpy", "pandas", "scipy", "cvxpy"],
+    python_requires=">=3.5",
 )
