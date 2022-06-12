@@ -11,8 +11,9 @@ setup(
     url="https://github.com/atkrishnan/alphascope",
     author="Atheesh Krishnan",
     author_email="atheesh.krishnan@outlook.com",
-    py_modules=["helloworld"],
-    package_dir={'': 'src'},
+    # py_modules=["helloworld"],
+    # package_dir={'': 'alphascope'},
+    packages=["alphascope"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console",
