@@ -1,2 +1,0 @@
-# sample
-print("initial message")
