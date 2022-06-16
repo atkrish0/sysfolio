@@ -1,4 +1,4 @@
-from alphascope.src import helloworld as hw
+from misc.src import helloworld as hw
 
 
 def test_hello_world_no_params():

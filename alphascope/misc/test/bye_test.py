@@ -1,4 +1,4 @@
-from alphascope.src import byeworld as bw
+from misc.src import byeworld as bw
 
 
 def test_bye_world_no_params():
