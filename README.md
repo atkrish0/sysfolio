@@ -6,7 +6,8 @@ The objective of this endeavor is to explore this crucial area and create someth
 
 Some of the models that will be implemented are:
 - Classical Markowitz Mean-Variance
-- Black-Litterman + variants
+- Mean-Semiariance
+- Black-Litterman + Variants
 - Hierarchical Clustering 
 - Stereoscopic
 - Boltzmann methods
@@ -32,7 +33,7 @@ If you use Alphascope for published work, please use the following BibTeX entry:
  
 ## Development
 
-Riskfolio-Lib development takes place on Github: https://github.com/atkrishnan/alphascope
+Alphascope development takes place on Github: https://github.com/atkrishnan/alphascope
 
 ## Usage
 tbd
