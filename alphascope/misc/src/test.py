@@ -1,0 +1,1 @@
+print("doge coin to the moon!")
