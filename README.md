@@ -1,7 +1,7 @@
 # Alphascope
 ~ Under development
 
-Note: This repository is VERY alpha (hence the name hehe?), bare bones next to nothing stuff. The intention is to fush things out over the cours of a year to a usable state. The python package will be the spotlight, but other directories will also hold research notebooks. 
+Note: This repository is VERY alpha (hence the name hehe?), bare bones next to nothing stuff. The intention is to flush things out over the course of a year to a usable state. The python package will be the spotlight, but other directories will hold research notebooks. 
 
 Developing and deploying an end-to-end python package for portfolio construction and optimization, the objective of this endeavor is to explore this space of computational finance and create something worthwhile along the way.
 
