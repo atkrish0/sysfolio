@@ -1,6 +1,6 @@
 # Alphascope
 
-~ Under development (as of Oct 2023)
+~ Under development (as of Mar 2024)
 
 Note: This repository is VERY alpha (hence the name hehe?), bare bones next to nothing stuff. The intention is to flush the material out over the course of a year to a usable state. The python library will be the spotlight, but other directories will hold research notebooks. 
 
@@ -26,7 +26,7 @@ The latest stable release (and older versions) can be installed from PyPI:
 If you use Alphascope for published work, please use the following BibTeX entry:
 
 ```
-@misc{riskfolio,
+@misc{alphascope,
       author = {Atheesh Krishnan},
       title = {alphascope (0.0.1)},
       year  = {2023},
