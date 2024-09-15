@@ -1,2 +1,2 @@
 include *.txt
-recursive-include alphascope *.py
+recursive-include sysfolio *.py

@@ -4,16 +4,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="alphascope",
+    name="sysfolio",
     version="0.0.1",
-    description="gen purpose quant fin library",
+    description="gen purpose portfolio optimization library",
     license="MIT",
-    url="https://github.com/atkrishnan/alphascope",
+    url="https://github.com/atkrishnan/sysfolio",
     author="Atheesh Krishnan",
     author_email="atheesh.krishnan@outlook.com",
     # py_modules=["helloworld"],
     # package_dir={'': 'alphascope'},
-    packages=["alphascope"],
+    packages=["sysfolio"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console",
