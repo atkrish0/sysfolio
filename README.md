@@ -1,6 +1,8 @@
 # Sysfolio
 
-~ Under development (as of Mar 2024)
+Systematic Portfolio Optimization
+
+~ Under development (as of September 2024)
 
 Note: This repository is VERY alpha, bare bones next to nothing stuff. The intention is to flush the material out over the course of a year to a usable state. The python library will be the spotlight, but other directories will hold research notebooks. 
 
@@ -15,6 +17,11 @@ Some of the models that will be implemented are:
 - Stereoscopic
 - Boltzmann methods
 - Eigen portfolios
+
+References:
+
+ - Quantitative Portfolio Management - Isichenko
+ - Advanced Portfolio Management - Paleologo
 
 ## Installation
 
