@@ -1,3 +1,6 @@
+from __future__ import absolute_import, print_function, division
+import numpy as np
+
 def weighcov( cov ):
     '''WEIGHT array (N,1) for Global Min Var Portfolio, given cov.'''
     #  Derived in Cochrane (2005), chp. 5, p.83.
