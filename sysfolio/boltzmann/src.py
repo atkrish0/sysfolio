@@ -13,3 +13,17 @@ def weighcovdata( dataframe ):
     '''WEIGHT array (N,1) for Global Min Var Portfolio, given data.'''
     V = fecon235.fecon235.covdiflog( dataframe )
     return weighcov(V)
+
+def trimit( it, floor, level ):
+    '''For an iterable, accept values > floor, else set to level.'''
+    try:
+        #  ... in case "it" array elements are integers,
+        #  else we cannot assign floats later when enumerating:
+        it = it.astype(np.float64)
+    except:
+        pass
+    cpit = it[:]
+    for i, x in enumerate(it):
+        cpit[i] = x if x > floor else level
+    #      Output should be of same type as it:
+    return cpit
