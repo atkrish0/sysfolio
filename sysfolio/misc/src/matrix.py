@@ -8,7 +8,7 @@ def invert_pseudo(mat, rcond=None):
     Singular Value Decomposition (SVD). If the matrix is invertible, 
     its pseudo-inverse will be equal to its inverse.
     Ref: https://en.wikipedia.org/wiki/Moore–Penrose_pseudoinverse
-    
+
     Parameters:
     ----------
     mat : array_like
@@ -42,3 +42,4 @@ def invert_pseudo(mat, rcond=None):
     
     except Exception as e:
         raise TypeError(f"Invalid input: {e}")
+    
